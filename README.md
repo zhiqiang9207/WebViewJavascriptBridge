@@ -8,3 +8,5 @@
 
 Notice:
 视频全屏的功能并不是所有机子都成功，试过三星、LG、华为、小米、魅族，目前只有小米的Flymeos 5.1.5.0A有问题，不确定其他机子会不会有同样的问题。
+
+[Gitbook](https://www.gitbook.com/book/zhiqiang9207/webviewjavascriptbridge/details)
