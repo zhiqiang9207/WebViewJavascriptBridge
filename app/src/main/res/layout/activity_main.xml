@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/webview_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context="com.dg11185.betterwebview.MainActivity">
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebView"/>
+</RelativeLayout>

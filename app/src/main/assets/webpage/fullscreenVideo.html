@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scale=1">
+    <title></title>
+    <style type="text/css" rel="stylesheet">
+        .line{
+            width:100%;
+            background: #000000;
+            height: 1px;
+        }
+    </style>
+</head>
+<body>
+        <video style="width:100%; height: auto;" controls>
+           <source src=http://125.64.133.74/data9/userfiles/video02/2014/12/11/2796948-280-068-1452.mp4 >
+        </video>
+</body>
+
+
+<script type="text/javascript" >
+    function click_x5 (){
+       Android.onX5ButtonClicked();
+        location.reload(false);
+
+    }
+    function click_normal(){
+        Android.onCustomButtonClicked();
+        location.reload(false);
+    }
+    function click_LiteWnd(){
+        Android.onLiteWndButtonClicked();
+        location.reload(false);
+    }
+    function click_PageVideo(){
+        Android.onPageVideoClicked();
+        location.reload(false);
+    }
+</script>
+</html>

@@ -1,0 +1,7 @@
+# WebViewJavascriptBridge
+基于WebViewJavascriptBridge再次封装的webview框架；
+原WebViewJavascriptBridge地址：https://github.com/lzyzsd/JsBridge
+
+在这个框架上面做了以下的改动：
+1、不在BridgeWebView里面构造方法里面自动setBridgeWebViewClient，以便后面自定BridgeWebViewClient；
+2、增加BridgeWebChromeClient，增加视频全屏相关功能；

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fullscreen_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#99000000"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:visibility="gone">
+
+    <Button
+        android:id="@+id/backward"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/btn_backward_grey"
+        android:paddingLeft="30dp" />
+
+    <TextView
+        android:id="@+id/fullscreen_text"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
